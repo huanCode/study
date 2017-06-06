@@ -1,0 +1,1 @@
+1、在window下写shell脚本，用notepad++的编辑-->文档格式转换-->转换为unix格式
