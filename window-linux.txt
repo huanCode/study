@@ -1,1 +1,3 @@
-1¡¢ÔÚwindowÏÂĞ´shell½Å±¾£¬ÓÃnotepad++µÄ±à¼­-->ÎÄµµ¸ñÊ½×ª»»-->×ª»»Îªunix¸ñÊ½
+1ã€åœ¨windowä¸‹å†™shellè„šæœ¬ï¼Œç”¨notepad++çš„ç¼–è¾‘-->æ–‡æ¡£æ ¼å¼è½¬æ¢-->è½¬æ¢ä¸ºunixæ ¼å¼
+2ã€ubuntuæ€ä¹ˆå®‰è£…SSHæœåŠ¡æ•™ç¨‹
+http://blog.csdn.net/md521/article/details/52597398
