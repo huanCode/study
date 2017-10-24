@@ -1,8 +1,9 @@
-#【目录】
-## 1. 显示目录大小
+# 目录
+- 显示目录大小
 du -sh external
 
 ![show_dir_size](show_dir_size.png)
+<<<<<<< HEAD
 ##
 
 
@@ -40,3 +41,10 @@ tar czvf test.tar.gz    .[!.]*    *
 
 - 查看cpu信息概要
 ![](assets/markdown-img-paste-20171022151929266.png)
+=======
+
+# 文件
+- 拷贝
+> 拷贝srcDir下所有的文件，包括隐藏文件等
+> cp -r srcDir/*    dstDir
+>>>>>>> 42ea2f7a63d614ef5df61365e2652962a120eaaa

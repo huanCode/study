@@ -1,0 +1,35 @@
+DownloadUnit--->DownloadManager---->DlInstance
+	dlc_**			dlc_**
+	
+FileUnit--->FileManager--->PlaylistManager---->DlInstance
+				flc_**			etc_**			 dlc_**
+
+根據/sdcard/arcvideo/3b9eeca2e53bb412ae961f05b5794c5c/3b9eeca2e53bb412ae961f05b5794c5c_1.dat生成md5 6257961026fe83bac1bdd469873e8721
+
+在/sdcard/arcvideo/6257961026fe83bac1bdd469873e8721.tmp
+
+
+
+FileUnit對應一個taskid,在createTaskID和open時創建
+
+RefMemUnit內存共享
+
+把下过来的数据，用FileUnit::run1,写入/sdcard/arcvideo/***.dat.dat0
+
+保存成/sdcard/arcvideo/7fc0e5fb2c57c6ce9086ea82ecacc036.tmp
+pTaskMgr->szTaskID
+
+
+Initialization:
+1.保存/sdcard/arcvideo/download/和/sdcard/arcvideo/record/
+2.PlaylistManager::Run1线程,在里面调用FileManager::Run1
+3.初始化数据库
+4.初始化DLHttpService
+5.创建PlaylistManager、FileManager、DownloadManager、DLHttpService
+
+
+
+createTaskID
+1.生产MD5,即taskID,url+/sdcard/arcvideo/download/**.mp4 ==>MD5
+2.创建PlaylistTaskMgr,然后去数据库查询获取数据
+3.创建/sdcard/arcvideo/download/****.m3u8
