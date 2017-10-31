@@ -133,7 +133,14 @@ sudo apt-get install g++-4.4-multilib
 ![](assets/markdown-img-paste-20171022154541612.png)
 
 # 运行android模拟器
-编译成功后
+>root@ubuntu:/android_source/android-4.4.3_r1.1# emulator
+emulator: command not found
+
+> **解决方法**
+root@ubuntu:/android_source/android-4.4.3_r1.1# cd out/host/linux-x86/bin/
+root@ubuntu:/android_source/android-4.4.3_r1.1/out/host/linux-x86/bin# ./emulator
+
+
 
 android 编译错误
 /bin/bash: jar: command not found
