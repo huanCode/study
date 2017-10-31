@@ -32,4 +32,19 @@ Initialization:
 createTaskID
 1.生产MD5,即taskID,url+/sdcard/arcvideo/download/**.mp4 ==>MD5
 2.创建PlaylistTaskMgr,然后去数据库查询获取数据
-3.创建/sdcard/arcvideo/download/****.m3u8
+3.创建/sdcard/arcvideo/download/****.m3u8,但是此時為空
+
+
+
+
+zhongyao
+PlaylistManager::AppendSegmenttoTargetFile:save tar.dat
+
+
+FileUnit::SaveFragmentAsFile函数最后合并文件
+
+=============================================
+类作用：
+FileFragment	某个切片第n个线程
+
+ProtocolUnit 	对下载source的适配器
