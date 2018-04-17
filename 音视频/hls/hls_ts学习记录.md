@@ -36,7 +36,8 @@ NIT|网络信息表|自定义|其他值自定义
         <td colspan="2">184 byte</td>
     </tr>
 </table>
-> packet:目前主要大小为188byte
+
+>   packet:目前主要大小为188byte
 
 
 
@@ -72,3 +73,47 @@ PAT| 0x0000
           - audio PES
       - NIT
 - PS packet
+
+# TS packet结构
+
+<table>
+    <tr>
+        <td colspan="2">188 bytes</td>
+    </tr>
+    <tr>
+        <td>header</td>
+        <td>payload</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <td colspan="9">Ts packet header结构</td>
+    </tr>
+    <tr>
+        <td colspan="8">4 bytes</td>
+        <td colspan="8">unknow bytes</td>
+    </tr>
+    <tr>
+        <td>8 bits</td>
+        <td>1 byte</td>
+        <td>1 byte</td>
+        <td>1 byte</td>
+        <td>13 bits</td>
+        <td>2 bits</td>
+        <td>2 bits</td>
+        <td>4 bits</td>
+        <td></td>
+    </tr>
+        <tr>
+        <td>sync byte</td>
+        <td>transport error indicator</td>
+        <td>payload unit start indicator</td>
+        <td>transport priority</td>
+        <td>PID</td>
+        <td>transport scrambling control</td>
+        <td>adaptation field control</td>
+        <td>continuity counter</td>
+        <td>adaptation field</td>
+    </tr>
+</table>
