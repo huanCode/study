@@ -50,9 +50,43 @@
 
 
 # ==========================6. cookie操作 ==============================
+# import requests
+
+# r = requests.get('https://www.baidu.com')
+# print(r.cookies)
+# for key,value in r.cookies.items():
+# 	print(key +'='+value)
+
+
+# ==========================7. 身份认证 ==============================
+# import requests
+# from requests.auth import HTTPBasicAuth
+
+# r = requests.get('http://localhost:5000',auth=HTTPBasicAuth('username','password'))
+# print(r.status_code)
+
+
+
+
+
+#---------------------------抓取猫眼排行--------------------------------------
 import requests
 
-r = requests.get('https://www.baidu.com')
-print(r.cookies)
-for key,value in r.cookies.items():
-	print(key +'='+value)
+def get_one_page(url):
+	headers = {
+		'User-Agent':'Mozilla/5.0 (Macintosh;Intel Mac OS X 10_11_4) AppleWebKit/537.36(KHTML,like Gecko) Chrome/52.0.2743.116 Safari/537.36'
+	}
+
+	response = requests.get(url,headers = headers)
+	if response.status_code == 200:
+		return response.text
+	return None
+
+def main():
+	url = 'http://maoyan.com/board/4'
+	html = get_one_page(url)
+	#print(html)
+	with open('maoyan.html','w') as f:
+		f.write(html)
+
+main()
