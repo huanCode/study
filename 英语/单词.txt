@@ -1,0 +1,101 @@
+statement	程序语句
+procedural	程序的
+once 		一次的
+compute		计算
+serve as	充当..
+
+use in 		用于
+generally	普遍地
+redundancy	[计][数] 冗余
+manageable	易管理的
+summarize	总结
+
+picture		概念
+device		【计算机】(具有专门功能的)硬件设备
+generalize	使...一般化
+arbitrarily	任意地
+thereby		adv. 从而
+
+maintenance	维护
+For instance	例如
+scratch		v 抓
+isolation	隔离
+In general	通常
+
+generators	生成器
+polymorphism	多态性
+formal		有条理的
+such that	如此…以致		用于连接语句
+assignment	n 赋值
+
+assign		v [计][数] 赋值
+mutable		易变的
+sink in		完全被理解
+expand		详述
+As with		和..一样		用于语句开头
+
+
+followed by	后面是
+indent		(计算机)缩进
+colon		冒号（；）
+parenthesis	圆括号
+along with	与…一起
+
+
+present		存在的	
+falls off	离开
+defer		推迟
+runtime		运行时间
+enclose		
+realize		充分了解
+
+
+definition	定义
+Apart from	除去.. 			用于语句开头
+interactive	交互式的	
+imported	引进
+prompt		提示			比如计算机命令行的前面
+
+sequences	n. [数][计] 序列
+multiply	vt. 乘
+repeat		vt. 重复
+algorithm	[计][数] 算法
+dilemma		n. 困境
+
+
+In effect	实际上
+wrap		vi. 包起来
+utility		[计] 实用程序
+transformation	转换
+as long as 	只要			用于语句连接
+
+
+classified	分类的
+Scope		作用域
+present		介绍v
+look up		仰望；查阅
+be known as	以…著称
+
+
+search for 	搜索
+Just about	差不多
+lexical		adj. 词汇的
+clash		n. 冲突
+localize	使局部化
+
+
+as follows	adv. 如下	
+qualified	合格的
+invoke		调用
+retain		记住
+Coincidentally	一致地
+
+
+prior		在前的
+ramification	支流
+rundown		纲要
+scheme		机制
+radically	根本上
+impact		影响v
+term		术语
+short for	是……的缩写
