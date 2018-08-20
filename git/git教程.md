@@ -1,6 +1,9 @@
 #查看commit历史
 >git log
 
+#状态切换
+1. 变回untracked
+git rm --cached 文件名
 
 #branch
 1. 查看当前哪个分支
@@ -34,3 +37,8 @@ git branch -d test
 ##分支管理
 1. 查看每个分支最后commit
 git branch -v
+
+
+#sourcetree软件
+untracked file
+![](.png)

@@ -1,0 +1,12 @@
+noun	名词
+verb	动词
+tense	时态
+subject	主语
+infinitive	（动词） 不定式
+peresonal pronoun	人称代词
+negative	否定;
+subjunctive	虚拟语气
+
+the simple present tense	一般现在时态
+present continuous		现在进行式
+present perfect			现在完成时
