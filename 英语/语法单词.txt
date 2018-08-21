@@ -6,6 +6,8 @@ infinitive	（动词） 不定式
 peresonal pronoun	人称代词
 negative	否定;
 subjunctive	虚拟语气
+active voice	主动（语）态
+transitive	（指动词） 及物的
 
 the simple present tense	一般现在时态
 present continuous		现在进行式
