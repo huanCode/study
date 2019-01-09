@@ -1,0 +1,17 @@
+ffmpeg -i 4353.ac3 -f s16le audio1.pcm 
+作用:把ac3音频解码成pcm，然后保存，s16le表示一个采样16bit
+
+
+ffmpeg -re -fflags +genpts -stream_loop -1 -i f:/vlc-record-2018-10-08-18h33m29s-udp___239.1.2.3_1234-.ts -f hls -vcodec copy -acodec copy f:/http_server/htdocs/hls/live/index.m3u8
+
+ts转m3u8
+ffmpeg -i xx.ts -c copy -map 0 -f segment -segment_list playlist.m3u8 -segment_time 10 output%03d.ts
+
+
+查看视频详细信息
+.\ffprobe.exe -show_streams http://172.28.200.187:8080/video/283343.8000.ts
+
+
+
+
+

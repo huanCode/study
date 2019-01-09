@@ -1,0 +1,66 @@
+-------------------------- vs2015配置 -----------------------------------
+1、c/c++  -->预编译头--->不使用预编译头
+2、c/c++  -->常规--->SDL检查 -->否
+3、附加库依赖项
+secur32.lib
+ws2_32.lib
+ole32.lib
+user32.lib
+bcrypt.lib
+kernel32.lib
+4、附加库目录
+C:\Program Files\Microsoft SDKs\Windows\v7.1\Lib;
+5、预处理器定义
+WIN32
+_DEBUG
+_CONSOLE
+_CRT_SECURE_NO_DEPRECATE
+_ISOC99_SOURCE
+_LARGEFILE_SOURCE
+_USE_MATH_DEFINES
+_CRT_SECURE_NO_WARNINGS
+_CRT_NONSTDC_NO_WARNINGS
+HAVE_AV_CONFIG_H
+_WIN32_WINNT=0x0600
+_FILE_OFFSET_BITS=64
+
+
+
+
+
+
+
+libavcodec目录下
+下面这些文件被 include包含在.c文件里，因此不要添加编译进去，不然会重定义冲突，或报一些找不到头文件错误
+*_template.c
+*_list.c
+aacpsdata.c
+aacps.c
+ac3dec.c
+eac3dec.c
+
+
+libavformat
+rtmpcrypt.c
+rtmpproto.c
+
+libavcodec\golomb.c
+
+
+---------------------------------------------------
+avformat引用avcodec的静态库时报下面错误
+avformat.lib(rtpdec_jpeg.obj) : error LNK2001: 无法解析的外部符号 __imp__avpriv_mjpeg_bits_ac_luminance
+
+解决方法:
+extern av_export_avcodec const uint8_t avpriv_mjpeg_bits_dc_luminance[]; 去掉av_export_avcodec
+
+jpegtables.h
+
+
+
+
+
+--------------- libswresample -----------------
+以下.c会被include
+*_template.c
+noise_shaping_data.c
