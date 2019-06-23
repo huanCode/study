@@ -1,0 +1,2 @@
+objdump -x libmv3_audioffmpegdec.so | grep NEEDED
+²é¿´libmv3_audioffmpegdec.soÒÀÀµµÄso¿â
