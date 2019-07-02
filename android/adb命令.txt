@@ -1,0 +1,12 @@
+一、显示进程占用
+adb shell top -m 10 -t -d 2
+二、杀死指定包名进程 package
+adb shell pm clear package 
+
+三、查看cpu被占用情况
+进入adb shell
+top -m 10 -s cpu
+
+# -m 10表示显示数量为10 
+
+# -s表示按指定行排序
