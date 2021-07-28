@@ -2,6 +2,7 @@
 //
 
 #include <iostream>
+#include "GraphMST.h"
 using namespace std;
 
 #define MAXINT 6
@@ -51,6 +52,10 @@ void Prim(int n)
 
 int main()
 {
+
+	GraphMST g;
+	g.InitArr_0();
+	g.Prim(0);
 
 	cout << "请输入初始权值数组:" << endl;
 	for (int i = 0; i < MAXINT; i++)
