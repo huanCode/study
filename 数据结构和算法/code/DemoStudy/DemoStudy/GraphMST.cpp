@@ -27,6 +27,7 @@ void GraphMST::Prim(int startIndex)
 	for (int i = 0; i < m_arr.size(); i++)
 	{
 		cout << startIndex<<endl;
+		visited[startIndex] = true;
 		for (int j = 0; j < m_arr.size(); j++)
 		{
 			if (m_arr[startIndex][j] < min && visited[j] == false)
