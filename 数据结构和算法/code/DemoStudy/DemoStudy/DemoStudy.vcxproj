@@ -147,6 +147,9 @@
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GraphMST.h" />
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="2012042720381722.png" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

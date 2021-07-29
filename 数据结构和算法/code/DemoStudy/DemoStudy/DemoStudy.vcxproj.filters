@@ -36,4 +36,9 @@
       <Filter>Graph</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <Image Include="2012042720381722.png">
+      <Filter>Graph</Filter>
+    </Image>
+  </ItemGroup>
 </Project>
