@@ -1,6 +1,4 @@
-#pragma once
-#include <vector>
-#include <iostream>
+#include "common.h"
 using namespace std;
 class GraphMST
 {
