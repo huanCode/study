@@ -3,6 +3,9 @@
 
 #include <iostream>
 #include "GraphMST.h"
+#include "GraphShortestPath.h"
+#include "DataMatrix.h"
+#include "Sort.h"
 using namespace std;
 
 #define MAXINT 6
@@ -52,26 +55,31 @@ void Prim(int n)
 
 int main()
 {
+	Sort::Demo();
+	//GraphShortestPath gp;
+	//DataMatrix gm;
 
-	GraphMST g;
-	g.InitArr_1();
-	g.Prim(4);
+	//gp.Dijkstra(gm.InitArr_1(),0);
 
-	cout << "请输入初始权值数组:" << endl;
-	for (int i = 0; i < MAXINT; i++)
-	{
-		for (int j = 0; j < MAXINT; j++)
-		{
-			//    cout<<"please enter c["<<i<<"]["<<j<<"]:";
-			//    cin>>c[i][j];
-			cout << c[i][j] << "\t";
-			//    cout<<endl;
-		}
-		cout << endl;
-	}
+	//GraphMST g;
+	//g.InitArr_1();
+	//g.Prim(4);
 
-	Prim(MAXINT - 1);
-    std::cout << "Hello World!\n";
+	//cout << "请输入初始权值数组:" << endl;
+	//for (int i = 0; i < MAXINT; i++)
+	//{
+	//	for (int j = 0; j < MAXINT; j++)
+	//	{
+	//		//    cout<<"please enter c["<<i<<"]["<<j<<"]:";
+	//		//    cin>>c[i][j];
+	//		cout << c[i][j] << "\t";
+	//		//    cout<<endl;
+	//	}
+	//	cout << endl;
+	//}
+
+	//Prim(MAXINT - 1);
+ //   std::cout << "Hello World!\n";
 }
 
 // 运行程序: Ctrl + F5 或调试 >“开始执行(不调试)”菜单

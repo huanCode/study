@@ -27,12 +27,33 @@
     <ClCompile Include="Graph.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
+    <ClCompile Include="DataMatrix.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphShortestPath.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Sort.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphMST.h">
       <Filter>Graph</Filter>
     </ClInclude>
     <ClInclude Include="Graph.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMatrix.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphShortestPath.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="Sort.h">
+      <Filter>Graph</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
       <Filter>Graph</Filter>
     </ClInclude>
   </ItemGroup>

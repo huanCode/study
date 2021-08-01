@@ -139,13 +139,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="DataMatrix.cpp" />
     <ClCompile Include="DemoStudy.cpp" />
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="GraphMST.cpp" />
+    <ClCompile Include="GraphShortestPath.cpp" />
+    <ClCompile Include="Sort.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="common.h" />
+    <ClInclude Include="DataMatrix.h" />
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GraphMST.h" />
+    <ClInclude Include="GraphShortestPath.h" />
+    <ClInclude Include="Sort.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="2012042720381722.png" />
