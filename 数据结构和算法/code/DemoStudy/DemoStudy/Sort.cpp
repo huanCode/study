@@ -22,6 +22,13 @@ void Sort::Demo()
 	Sort::CountSort(vc);
 }
 
+void Sort::DemoBubbleSort()
+{
+	int length = 8;
+	int arr[] = {6,1,3,2,10,9,14,4};
+	BubbleSort(arr, length);
+}
+
 
 void Sort::Swap(vector<int>& lt, int indexA, int indexB)
 {
@@ -29,6 +36,45 @@ void Sort::Swap(vector<int>& lt, int indexA, int indexB)
 	lt[indexA] = lt[indexB];
 	lt[indexB] = tmp;
 
+}
+
+void Sort::Swap(int& a, int& b)
+{
+	int temp = 0;
+	temp = a;
+	a = b;
+	b = temp;
+}
+
+void Sort::BubbleSort(int arr[], int arrSize)
+{
+	cout << "原始数组：" << endl;
+	int flag = arrSize;
+	int length = arrSize;
+	PrintArray(arr, arrSize);
+	cout << "排序过程" << endl;
+	while (flag > 0)
+	{
+		length = flag;
+		flag = 0;
+		
+		for (int i = 1; i < length; i++)
+		{
+			
+			if (arr[i - 1] > arr[i])
+			{
+				cout << "排序过程 length = " << length << ",i = " << i << endl;
+				Swap(arr[i - 1], arr[i]);
+				PrintArray(arr,arrSize);
+				flag = i;
+
+			}
+
+		}
+		cout << "排序过程  -----" << endl;
+	}
+
+	int a = 1;
 }
 
 void Sort::PrintVector(vector<int>& arr)
@@ -41,6 +87,15 @@ void Sort::PrintVector(vector<int>& arr)
 	cout << "] "<<endl;
 }
 
+void Sort::PrintArray(int arr[], int size)
+{
+	cout << "[ ";
+	for (int i = 0; i < size; i++)
+	{
+		cout << setw(3) << arr[i] << ",";
+	}
+	cout << "] " << endl;
+}
 
 void Sort::SelectSort(vector<int>& lt)
 {

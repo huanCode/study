@@ -55,7 +55,8 @@ void Prim(int n)
 
 int main()
 {
-	Sort::Demo();
+	//Sort::Demo();
+	Sort::DemoBubbleSort();
 	//GraphShortestPath gp;
 	//DataMatrix gm;
 
