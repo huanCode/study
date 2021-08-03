@@ -26,7 +26,15 @@ void Sort::DemoBubbleSort()
 {
 	int length = 8;
 	int arr[] = {6,1,3,2,10,9,14,4};
-	BubbleSort(arr, length);
+	SelectSort(arr, length);
+}
+
+
+void Sort::DemoSelectSort()
+{
+	int length = 8;
+	int arr[] = { 6,1,3,2,10,9,14,4 };
+	SelectSort(arr, length);
 }
 
 
@@ -123,6 +131,68 @@ void Sort::SelectSort(vector<int>& lt)
 		}
 	}
 }
+
+
+
+void Sort::SelectSort(int arr[], int arrSize)
+{
+	cout << "原始数组：" << endl;
+	PrintArray(arr, arrSize);
+	cout << "排序过程：" << endl;
+	int minIndex = 0;
+	//arrSize - 1 :表示只要选择最小
+	for (int i = 0; i < arrSize - 1; i++)
+	{
+		cout << "arrSize = " << arrSize  << ",第[ "<<i<<" ]次"<<endl;
+		minIndex = i;
+		for (int j = i + 1; j < arrSize; j++)
+		{
+			if (arr[minIndex] > arr[j])
+			{
+				minIndex = j;
+			}
+
+		}
+
+		if (minIndex != i)
+		{
+			Swap(arr[minIndex], arr[i]);
+			PrintArray(arr, arrSize);
+		}
+
+	}
+
+	int a = 1;
+
+}
+
+void Sort::SelectSort2(int arr[], int arrSize)
+{
+	cout << "原始数组：" << endl;
+	PrintArray(arr, arrSize);
+	cout << "排序过程：" << endl;
+	int minIndex = 0;
+	int maxIndex = 0;
+	//arrSize - 1 :表示只要选择最小
+	for (int left = 0,int right = arrSize - 1; left < right; left++, right--)
+	{
+		minIndex = left;
+		maxIndex = right;
+		for (int i = left + 1; i <= right; i++)
+		{
+			minIndex = arr[i] < arr[minIndex] ? i: left;
+			maxIndex = arr[i] > arr[maxIndex] ? i : right;
+
+		}
+
+	}
+
+	int a = 1;
+}
+
+
+
+
 
 void Sort::InsertSort(vector<int>& arr)
 {

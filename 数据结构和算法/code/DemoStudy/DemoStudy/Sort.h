@@ -8,10 +8,15 @@ public:
 
 	static void Demo();
 	static void DemoBubbleSort();
-
+	static void DemoSelectSort();
 	static void BubbleSort(int arr[],int arrSize);
 
 	/*选择排序*/
+	static void SelectSort(int arr[],int arrSize);
+
+	//在SelectSort基础上优化,一次循环中同时比较最小和最大值
+	static void SelectSort2(int arr[], int arrSize);
+
 	static void SelectSort(vector<int>& lt);
 	/*直接插入排序*/
 	static void InsertSort(vector<int>& arr);
