@@ -166,29 +166,29 @@ void Sort::SelectSort(int arr[], int arrSize)
 
 }
 
-void Sort::SelectSort2(int arr[], int arrSize)
-{
-	cout << "原始数组：" << endl;
-	PrintArray(arr, arrSize);
-	cout << "排序过程：" << endl;
-	int minIndex = 0;
-	int maxIndex = 0;
-	//arrSize - 1 :表示只要选择最小
-	for (int left = 0,int right = arrSize - 1; left < right; left++, right--)
-	{
-		minIndex = left;
-		maxIndex = right;
-		for (int i = left + 1; i <= right; i++)
-		{
-			minIndex = arr[i] < arr[minIndex] ? i: left;
-			maxIndex = arr[i] > arr[maxIndex] ? i : right;
-
-		}
-
-	}
-
-	int a = 1;
-}
+//void Sort::SelectSort2(int arr[], int arrSize)
+//{
+//	cout << "原始数组：" << endl;
+//	PrintArray(arr, arrSize);
+//	cout << "排序过程：" << endl;
+//	int minIndex = 0;
+//	int maxIndex = 0;
+//	//arrSize - 1 :表示只要选择最小
+//	for (int left = 0,int right = arrSize - 1; left < right; left++, right--)
+//	{
+//		minIndex = left;
+//		maxIndex = right;
+//		for (int i = left + 1; i <= right; i++)
+//		{
+//			minIndex = arr[i] < arr[minIndex] ? i: left;
+//			maxIndex = arr[i] > arr[maxIndex] ? i : right;
+//
+//		}
+//
+//	}
+//
+//	int a = 1;
+//}
 
 
 
@@ -318,6 +318,3 @@ void Sort::CountSort(vector<int>& arr)
 
 	int a = 1;
 }
-
-
-

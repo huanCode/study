@@ -1,3 +1,5 @@
+#ifndef _SOURCEPARSERUNIT_H_ 
+#define _SOURCEPARSERUNIT_H_
 #include "common.h"
 using namespace std;
 class GraphMST
@@ -12,3 +14,4 @@ private:
 	vector<vector<int>> m_arr;
 };
 
+#endif

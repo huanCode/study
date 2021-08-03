@@ -16,6 +16,12 @@
     <Filter Include="Graph">
       <UniqueIdentifier>{f0e9d2a8-9d55-4ab3-a901-3d596fac3e91}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Sort">
+      <UniqueIdentifier>{fb85d250-f5ed-471b-9420-7026f84694bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tool">
+      <UniqueIdentifier>{8bbbaa5a-9494-4646-8d1e-47fc68638029}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DemoStudy.cpp">
@@ -36,6 +42,12 @@
     <ClCompile Include="Sort.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>头文件</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>tool</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphMST.h">
@@ -53,8 +65,11 @@
     <ClInclude Include="Sort.h">
       <Filter>Graph</Filter>
     </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="common.h">
-      <Filter>Graph</Filter>
+      <Filter>tool</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
