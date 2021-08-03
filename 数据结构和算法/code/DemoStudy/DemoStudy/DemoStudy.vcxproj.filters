@@ -42,11 +42,14 @@
     <ClCompile Include="Sort.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
-    <ClCompile Include="QuickSort.cpp">
-      <Filter>头文件</Filter>
-    </ClCompile>
     <ClCompile Include="common.cpp">
       <Filter>tool</Filter>
+    </ClCompile>
+    <ClCompile Include="QuickSort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="MergeSort.cpp">
+      <Filter>Sort</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -65,11 +68,14 @@
     <ClInclude Include="Sort.h">
       <Filter>Graph</Filter>
     </ClInclude>
-    <ClInclude Include="QuickSort.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="common.h">
       <Filter>tool</Filter>
+    </ClInclude>
+    <ClInclude Include="QuickSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="MergeSort.h">
+      <Filter>Sort</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

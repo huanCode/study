@@ -16,3 +16,22 @@ void PrintArray(int arr[], int size)
 	}
 	cout << "] " << endl;
 }
+
+
+void PrintArray(int arr[], int left, int right)
+{
+	cout << "[ ";
+	while (left <= right)
+	{
+		if (left == right)
+		{
+			cout << setw(3) << arr[left];
+		}
+		else
+		{
+			cout << setw(3) << arr[left] << ",";
+		}
+		left++;
+	}
+	cout << "] " << endl;
+}

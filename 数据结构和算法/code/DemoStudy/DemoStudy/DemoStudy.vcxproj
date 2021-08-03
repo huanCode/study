@@ -145,6 +145,7 @@
     <ClCompile Include="Graph.cpp" />
     <ClCompile Include="GraphMST.cpp" />
     <ClCompile Include="GraphShortestPath.cpp" />
+    <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
@@ -154,6 +155,7 @@
     <ClInclude Include="Graph.h" />
     <ClInclude Include="GraphMST.h" />
     <ClInclude Include="GraphShortestPath.h" />
+    <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="Sort.h" />
   </ItemGroup>

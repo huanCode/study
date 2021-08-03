@@ -7,6 +7,7 @@
 #include "DataMatrix.h"
 #include "Sort.h"
 #include "QuickSort.h"
+#include "MergeSort.h"
 using namespace std;
 
 #define MAXINT 6
@@ -59,6 +60,7 @@ int main()
 	//Sort::Demo();
 	//Sort::DemoBubbleSort();
 	//Sort::DemoSelectSort();
-	QuickSort::Demo();
+	//QuickSort::Demo();
+	MergeSort::Demo();
 }
 
