@@ -8,4 +8,6 @@ using namespace std;
 
 void PrintArray(int arr[], int size);
 void PrintArray(int arr[], int left,int right);
+
+void Swap(int& a, int& b);
 #endif
