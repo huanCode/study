@@ -18,7 +18,7 @@ void PrintArray(int arr[], int size)
 }
 
 
-void PrintArray(int arr[], int left, int right)
+void PrintArray(int arr[], int left, int right, bool bline)
 {
 	cout << "[ ";
 	while (left <= right)
@@ -33,7 +33,15 @@ void PrintArray(int arr[], int left, int right)
 		}
 		left++;
 	}
-	cout << "] " << endl;
+	if (bline)
+	{
+		cout << "] " << endl;
+	}
+	else
+	{
+		cout << "] ";
+	}
+	
 }
 
 void Swap(int& a, int& b)

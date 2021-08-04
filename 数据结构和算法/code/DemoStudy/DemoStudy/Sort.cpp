@@ -166,54 +166,6 @@ void Sort::SelectSort(int arr[], int arrSize)
 
 }
 
-//void Sort::SelectSort2(int arr[], int arrSize)
-//{
-//	cout << "原始数组：" << endl;
-//	PrintArray(arr, arrSize);
-//	cout << "排序过程：" << endl;
-//	int minIndex = 0;
-//	int maxIndex = 0;
-//	//arrSize - 1 :表示只要选择最小
-//	for (int left = 0,int right = arrSize - 1; left < right; left++, right--)
-//	{
-//		minIndex = left;
-//		maxIndex = right;
-//		for (int i = left + 1; i <= right; i++)
-//		{
-//			minIndex = arr[i] < arr[minIndex] ? i: left;
-//			maxIndex = arr[i] > arr[maxIndex] ? i : right;
-//
-//		}
-//
-//	}
-//
-//	int a = 1;
-//}
-
-
-
-
-
-void Sort::InsertSort(vector<int>& arr)
-{
-	int insertValue = 0;
-	int j = 0;
-	for (int i = 1; i < arr.size(); i++)
-	{
-		if (arr[(i-1)] > arr[i])
-		{
-			insertValue = arr[i];
-			for (j = i - 1; j >= 0 && arr[j] > insertValue; j--)
-			{
-				arr[(j+1)] = arr[j];
-			}
-			arr[(j+1)] = insertValue;
-		}
-	}
-
-	int b = 0;
-}
-
 
 void Sort::ShellSort(vector<int>& arr)
 {

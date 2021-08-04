@@ -54,6 +54,12 @@
     <ClCompile Include="HeapSort.cpp">
       <Filter>Sort</Filter>
     </ClCompile>
+    <ClCompile Include="SelectSort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="InsertSort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphMST.h">
@@ -81,6 +87,12 @@
       <Filter>Sort</Filter>
     </ClInclude>
     <ClInclude Include="HeapSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="InsertSort.h">
       <Filter>Sort</Filter>
     </ClInclude>
   </ItemGroup>
