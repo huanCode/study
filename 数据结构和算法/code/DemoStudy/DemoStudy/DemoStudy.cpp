@@ -10,6 +10,7 @@
 #include "MergeSort.h"
 #include "HeapSort.h"
 #include "InsertSort.h"
+#include "AvlTreeTmp.h"
 using namespace std;
 
 
@@ -24,6 +25,8 @@ int main()
 	//QuickSort::Demo();
 	//MergeSort::Demo();
 	//HeapSort::Demo();
-	InsertSort::Demo();
+	//InsertSort::Demo();
+
+	AvlTreeTmp::Demo();
 }
 
