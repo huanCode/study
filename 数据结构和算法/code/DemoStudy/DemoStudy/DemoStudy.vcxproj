@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -152,7 +152,9 @@
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectSort.cpp" />
+    <ClCompile Include="Solution_76.cpp" />
     <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="tmp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="AvlTree.h" />
@@ -167,7 +169,9 @@
     <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectSort.h" />
+    <ClInclude Include="Solution_76.h" />
     <ClInclude Include="Sort.h" />
+    <ClInclude Include="tmp.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="2012042720381722.png" />
