@@ -44,6 +44,30 @@ void PrintArray(int arr[], int left, int right, bool bline)
 	
 }
 
+
+void PrintArray(vector<vector<int>>& matrix)
+{
+	if (matrix.size() == 0 || matrix[0].size())
+	{
+		return;
+	}
+
+	for (int i = 0; i < matrix.size(); i++)
+	{
+		for (int  j = 0; j < matrix[0].size(); j++)
+		{
+			cout << setw(3)  <<matrix[i][j];
+		}
+		cout << endl;
+
+	}
+
+}
+
+
+
+
+
 void Swap(int& a, int& b)
 {
 	int temp = 0;

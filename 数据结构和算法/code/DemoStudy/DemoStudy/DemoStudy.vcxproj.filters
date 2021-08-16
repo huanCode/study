@@ -28,6 +28,12 @@
     <Filter Include="tmp">
       <UniqueIdentifier>{175a3227-86ac-4efa-9e61-226060f02fad}</UniqueIdentifier>
     </Filter>
+    <Filter Include="leetcode">
+      <UniqueIdentifier>{776ae94b-880d-4692-a135-86ae4149805d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="leetcode\DFS">
+      <UniqueIdentifier>{e946ab1b-85d1-4b55-9876-922e4c16335b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="DemoStudy.cpp">
@@ -75,6 +81,12 @@
     <ClCompile Include="tmp.cpp">
       <Filter>tmp</Filter>
     </ClCompile>
+    <ClCompile Include="Solution_76.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="LeetCode.cpp">
+      <Filter>leetcode</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphMST.h">
@@ -118,6 +130,18 @@
     </ClInclude>
     <ClInclude Include="tmp.h">
       <Filter>tmp</Filter>
+    </ClInclude>
+    <ClInclude Include="Solution_76.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="417_PacificAtlantic_M.h">
+      <Filter>leetcode\DFS</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCode.h">
+      <Filter>leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="LeetCodeAllSample.h">
+      <Filter>leetcode</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

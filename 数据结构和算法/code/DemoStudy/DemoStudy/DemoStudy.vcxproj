@@ -149,6 +149,7 @@
     <ClCompile Include="GraphShortestPath.cpp" />
     <ClCompile Include="HeapSort.cpp" />
     <ClCompile Include="InsertSort.cpp" />
+    <ClCompile Include="LeetCode.cpp" />
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectSort.cpp" />
@@ -157,6 +158,7 @@
     <ClCompile Include="tmp.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="417_PacificAtlantic_M.h" />
     <ClInclude Include="AvlTree.h" />
     <ClInclude Include="AvlTreeTmp.h" />
     <ClInclude Include="common.h" />
@@ -166,6 +168,8 @@
     <ClInclude Include="GraphShortestPath.h" />
     <ClInclude Include="HeapSort.h" />
     <ClInclude Include="InsertSort.h" />
+    <ClInclude Include="LeetCode.h" />
+    <ClInclude Include="LeetCodeAllSample.h" />
     <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectSort.h" />

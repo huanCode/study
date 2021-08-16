@@ -13,5 +13,7 @@ using namespace std;
 void PrintArray(int arr[], int size);
 void PrintArray(int arr[], int left,int right,bool bline = true);
 
+
+void PrintArray(vector<vector<int>>& matrix);
 void Swap(int& a, int& b);
 #endif
