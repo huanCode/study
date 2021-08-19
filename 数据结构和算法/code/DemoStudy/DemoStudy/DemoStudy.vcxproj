@@ -155,7 +155,6 @@
     <ClCompile Include="SelectSort.cpp" />
     <ClCompile Include="Solution_76.cpp" />
     <ClCompile Include="Sort.cpp" />
-    <ClCompile Include="tmp.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="417_PacificAtlantic_M.h" />
@@ -175,7 +174,6 @@
     <ClInclude Include="SelectSort.h" />
     <ClInclude Include="Solution_76.h" />
     <ClInclude Include="Sort.h" />
-    <ClInclude Include="tmp.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="2012042720381722.png" />

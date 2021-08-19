@@ -25,9 +25,6 @@
     <Filter Include="Tree">
       <UniqueIdentifier>{f1c2b6c2-9cba-40d4-8f81-da01fdefa0c2}</UniqueIdentifier>
     </Filter>
-    <Filter Include="tmp">
-      <UniqueIdentifier>{175a3227-86ac-4efa-9e61-226060f02fad}</UniqueIdentifier>
-    </Filter>
     <Filter Include="leetcode">
       <UniqueIdentifier>{776ae94b-880d-4692-a135-86ae4149805d}</UniqueIdentifier>
     </Filter>
@@ -78,9 +75,6 @@
     <ClCompile Include="AvlTreeTmp.cpp">
       <Filter>Tree</Filter>
     </ClCompile>
-    <ClCompile Include="tmp.cpp">
-      <Filter>tmp</Filter>
-    </ClCompile>
     <ClCompile Include="Solution_76.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -127,9 +121,6 @@
     </ClInclude>
     <ClInclude Include="AvlTreeTmp.h">
       <Filter>Tree</Filter>
-    </ClInclude>
-    <ClInclude Include="tmp.h">
-      <Filter>tmp</Filter>
     </ClInclude>
     <ClInclude Include="Solution_76.h">
       <Filter>头文件</Filter>
