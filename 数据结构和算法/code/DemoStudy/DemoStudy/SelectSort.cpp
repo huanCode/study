@@ -2,44 +2,22 @@
 
 void SelectSort::Demo()
 {
+	vector<int> arr = { 50,10,90,30,70,40,80,60,20 };
+	Sort(arr);
 
 }
 
-void SelectSort::Sort(int arr[], int length)
+void SelectSort::Sort(vector<int>& arr)
 {
-	int min = 0;
-	int max = 0;
-	int left = 0;
-	int right = length - 1;
-
-	cout << "原始数组:" << endl;
-	PrintArray(arr, length);
-	cout << "排序:" << endl;
-	for (; left < right; left++, right--)
+	int minIndex = 0;
+	for (int i = 0; i < arr.size(); i++)
 	{
-		cout << "left = " << left << ",right = " << right << endl;
-		min = left;
-		max = left;
-		for (int i = left + 1; i <= right; i++)
+		minIndex = i;
+		for (int j = i+1; j < arr.size(); j++)
 		{
-			if (arr[i] > arr[max])
-			{
-				max = i;
-			}
+			minIndex = arr[j] < arr[minIndex] ? j : minIndex;
+		}
 
-			if (arr[i] < arr[min])
-			{
-				min = i;
-			}
-		}
-		cout << "min = " << min << ",max = " << max << endl;
-		Swap(arr[max], arr[right]);
-		//最小值在right
-		if (min == right)
-		{
-			min = max;
-		}
-		Swap(arr[min], arr[left]);
-		PrintArray(arr, length);
+		Swap(arr[minIndex],arr[i]);
 	}
 }

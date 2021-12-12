@@ -3,8 +3,8 @@
 int QuickSort::length = 0;
 void QuickSort::Demo()
 {
-	length = 9;
-	int arr[] = { 50,10,90,30,70,40,80,60,20 };
+	length = 8;
+	int arr[] = { 8,2,5,0,7,4,6,1 };
 	cout << "原始数组:" << endl;
 	PrintArray(arr, length);
 	Sort(arr, length);

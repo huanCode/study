@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClCompile Include="AvlTree.cpp" />
     <ClCompile Include="AvlTreeTmp.cpp" />
+    <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="common.cpp" />
     <ClCompile Include="DataMatrix.cpp" />
     <ClCompile Include="DemoStudy.cpp" />
@@ -153,6 +154,7 @@
     <ClCompile Include="MergeSort.cpp" />
     <ClCompile Include="QuickSort.cpp" />
     <ClCompile Include="SelectSort.cpp" />
+    <ClCompile Include="ShellSort.cpp" />
     <ClCompile Include="Solution_76.cpp" />
     <ClCompile Include="Sort.cpp" />
   </ItemGroup>
@@ -160,6 +162,7 @@
     <ClInclude Include="417_PacificAtlantic_M.h" />
     <ClInclude Include="AvlTree.h" />
     <ClInclude Include="AvlTreeTmp.h" />
+    <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="common.h" />
     <ClInclude Include="DataMatrix.h" />
     <ClInclude Include="Graph.h" />
@@ -172,6 +175,7 @@
     <ClInclude Include="MergeSort.h" />
     <ClInclude Include="QuickSort.h" />
     <ClInclude Include="SelectSort.h" />
+    <ClInclude Include="ShellSort.h" />
     <ClInclude Include="Solution_76.h" />
     <ClInclude Include="Sort.h" />
   </ItemGroup>

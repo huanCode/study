@@ -81,6 +81,12 @@
     <ClCompile Include="LeetCode.cpp">
       <Filter>leetcode</Filter>
     </ClCompile>
+    <ClCompile Include="BubbleSort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
+    <ClCompile Include="ShellSort.cpp">
+      <Filter>Sort</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GraphMST.h">
@@ -133,6 +139,12 @@
     </ClInclude>
     <ClInclude Include="LeetCodeAllSample.h">
       <Filter>leetcode</Filter>
+    </ClInclude>
+    <ClInclude Include="BubbleSort.h">
+      <Filter>Sort</Filter>
+    </ClInclude>
+    <ClInclude Include="ShellSort.h">
+      <Filter>Sort</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
